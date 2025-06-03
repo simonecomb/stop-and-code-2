@@ -1,0 +1,15 @@
+<div
+  class="color-block"
+  [style.backgroundColor]="color.hex"
+  [ngClass]="{ active: color.active }"
+  (click)="onClick()"
+>
+ <h3>{{ color.name }}</h3>
+
+@if (color.active) {
+  <p>Attivo</p>
+} @else {
+  <p>Inattivo</p>
+}
+</div>
+

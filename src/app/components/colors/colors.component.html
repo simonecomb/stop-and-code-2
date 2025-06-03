@@ -1,0 +1,8 @@
+<div class="color-container">
+@for (c of colors; track $index) {
+    <app-color-block
+    [color]="c"
+    (toggle)="toggleColor($index)"
+    ></app-color-block>
+}
+</div>
