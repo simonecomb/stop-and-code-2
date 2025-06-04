@@ -4,7 +4,7 @@ import { ColorsComponent } from "./components/colors/colors.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ColorsComponent],
+  imports: [ColorsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
